@@ -1,0 +1,660 @@
+2018-04-29 16:06:40,225-[YZT] [INFO] main com.up72.server.mina.utils.ProjectInfoPropertyUtil - 开始加载properties文件内容.......
+2018-04-29 16:06:40,235-[YZT] [INFO] main com.up72.server.mina.utils.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-29 16:06:40,236-[YZT] [INFO] main com.up72.server.mina.utils.DataLoader - init mybatis
+2018-04-29 16:06:40,254-[YZT] [INFO] main com.up72.server.mina.utils.DataLoader - 请求地址为：http://192.168.1.123:8086/
+2018-04-29 16:09:20,901-[YZT] [INFO] main com.up72.server.mina.utils.ProjectInfoPropertyUtil - 开始加载properties文件内容.......
+2018-04-29 16:09:20,906-[YZT] [INFO] main com.up72.server.mina.utils.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-04-29 16:09:20,909-[YZT] [INFO] main com.up72.server.mina.utils.DataLoader - init mybatis
+2018-04-29 16:09:20,919-[YZT] [INFO] main com.up72.server.mina.utils.DataLoader - 请求地址为：http://192.168.1.123:8086/
+2018-04-29 16:09:21,419-[YZT] [INFO] main detail - {com.up72.server.mina.utils.redis.MyRedis} -- redis 初始化完成
+2018-04-29 16:09:21,420-[YZT] [INFO] main detail - {com.up72.server.mina.utils.BackFileUtil} -- 回放文件清理完成！
+2018-04-29 16:09:21,420-[YZT] [INFO] main detail - {com.up72.server.mina.tcp.MinaTCPServer} -- Mina TCP Server 服务器开始启动
+2018-04-29 16:09:21,730-[YZT] [INFO] main detail - {com.up72.server.mina.tcp.MinaTCPServer} -- Mina TCP Server 唐山斗地主服务器启动完成，端口：8208
+2018-04-29 16:09:22,505-[YZT] [INFO] main detail - {com.up72.server.mina.utils.TaskUtil} -- 加载spring的定时配置文件完成
+2018-04-29 16:09:22,606-[YZT] [INFO] main com.up72.server.mina.utils.DataLoader - 启动成功
+2018-04-29 16:09:33,964-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=1
+2018-04-29 16:09:33,965-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 1 个 client 登陆！address： : /192.168.1.107:59305
+2018-04-29 16:09:33,965-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 1
+2018-04-29 16:09:34,016-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:34,016-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:34,234-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:34,237-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:34,248-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-5, interfaceId=100100, cId=10}
+2018-04-29 16:09:34,281-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:34,291-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.getNotice
+2018-04-29 16:09:34,918-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:34,919-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:35,197-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:42,016-[YZT] [INFO] NioProcessor-2 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为1
+2018-04-29 16:09:43,665-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=2
+2018-04-29 16:09:43,668-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 2 个 client 登陆！address： : /192.168.1.156:62516
+2018-04-29 16:09:43,669-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 1
+2018-04-29 16:09:43,686-[YZT] [INFO] pool-3-thread-1 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 9442
+2018-04-29 16:09:43,723-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:09:43,723-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:09:43,723-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:09:43,723-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:43,726-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-21, interfaceId=100100, cId=10}
+2018-04-29 16:09:43,742-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:43,742-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:43,920-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:43,954-[YZT] [ERROR] pool-3-thread-3 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getMoneyInit数据库操作出错！
+2018-04-29 16:09:43,970-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:44,040-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:44,082-[YZT] [INFO] pool-3-thread-3 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 356
+2018-04-29 16:09:44,313-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":504286,"f":1}
+2018-04-29 16:09:44,313-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":504286,"f":1}
+2018-04-29 16:09:44,314-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":504286}
+2018-04-29 16:09:44,314-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:09:44,319-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=504286}
+2018-04-29 16:09:44,320-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:09:44,324-[YZT] [INFO] pool-3-thread-4 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 7
+2018-04-29 16:09:45,712-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100009","J":504286}
+2018-04-29 16:09:45,712-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100009","J":504286}
+2018-04-29 16:09:45,713-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100009","J":504286}
+2018-04-29 16:09:45,713-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100009
+2018-04-29 16:09:45,724-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100009, userId=504286}
+2018-04-29 16:09:45,727-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 用户点击同意协议,interfaceId -> 100009
+2018-04-29 16:09:45,772-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:45,833-[YZT] [INFO] pool-3-thread-5 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100009 ] 请求处理时间 -->> 109
+2018-04-29 16:09:51,631-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=3
+2018-04-29 16:09:51,632-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 3 个 client 登陆！address： : /192.168.1.156:62527
+2018-04-29 16:09:51,632-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 2
+2018-04-29 16:09:51,729-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:09:51,729-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:09:51,729-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:09:51,730-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:51,734-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-22, interfaceId=100100, cId=10}
+2018-04-29 16:09:51,740-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:51,745-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:51,883-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=4
+2018-04-29 16:09:51,883-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 4 个 client 登陆！address： : /192.168.1.107:59343
+2018-04-29 16:09:51,883-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 3
+2018-04-29 16:09:51,898-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:51,912-[YZT] [ERROR] pool-3-thread-6 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getMoneyInit数据库操作出错！
+2018-04-29 16:09:51,926-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:51,960-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:09:51,961-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:09:51,961-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:09:51,961-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:51,962-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-6, interfaceId=100100, cId=10}
+2018-04-29 16:09:51,963-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:51,963-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:52,030-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:52,068-[YZT] [INFO] pool-3-thread-6 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 334
+2018-04-29 16:09:52,159-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:52,217-[YZT] [INFO] pool-3-thread-7 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 255
+2018-04-29 16:09:52,246-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":203849,"a":"100008","J":124199}
+2018-04-29 16:09:52,246-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":203849,"a":"100008","J":124199}
+2018-04-29 16:09:52,246-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":203849,"J":124199}
+2018-04-29 16:09:52,246-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:09:52,251-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=124199, roomSn=203849}
+2018-04-29 16:09:52,252-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:09:52,266-[YZT] [INFO] pool-3-thread-8 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 16
+2018-04-29 16:09:52,319-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":374337,"f":1}
+2018-04-29 16:09:52,319-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":374337,"f":1}
+2018-04-29 16:09:52,319-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":374337}
+2018-04-29 16:09:52,319-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:09:52,324-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=374337}
+2018-04-29 16:09:52,327-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:09:52,328-[YZT] [INFO] pool-3-thread-9 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 4
+2018-04-29 16:09:52,376-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":124199,"f":1}
+2018-04-29 16:09:52,376-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":124199,"f":1}
+2018-04-29 16:09:52,376-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":124199}
+2018-04-29 16:09:52,376-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:09:52,397-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=124199}
+2018-04-29 16:09:52,397-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:09:52,398-[YZT] [INFO] pool-3-thread-10 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 5
+2018-04-29 16:09:54,418-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=5
+2018-04-29 16:09:54,418-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 5 个 client 登陆！address： : /192.168.1.107:59351
+2018-04-29 16:09:54,418-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 4
+2018-04-29 16:09:54,471-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:54,471-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:54,471-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:09:54,471-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:54,483-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-5, interfaceId=100100, cId=10}
+2018-04-29 16:09:54,488-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:54,488-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:54,659-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:54,899-[YZT] [INFO] pool-3-thread-11 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 416
+2018-04-29 16:09:54,948-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":203849,"a":"100008","J":210717}
+2018-04-29 16:09:54,948-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":203849,"a":"100008","J":210717}
+2018-04-29 16:09:54,948-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":203849,"J":210717}
+2018-04-29 16:09:54,949-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:09:54,950-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=210717, roomSn=203849}
+2018-04-29 16:09:54,950-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:09:54,952-[YZT] [INFO] pool-3-thread-12 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 2
+2018-04-29 16:09:55,081-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":210717,"f":1}
+2018-04-29 16:09:55,081-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":210717,"f":1}
+2018-04-29 16:09:55,081-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":210717}
+2018-04-29 16:09:55,081-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:09:55,084-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=210717}
+2018-04-29 16:09:55,084-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:09:55,087-[YZT] [INFO] pool-3-thread-13 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 4
+2018-04-29 16:09:56,256-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=6
+2018-04-29 16:09:56,256-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 6 个 client 登陆！address： : /192.168.1.107:59354
+2018-04-29 16:09:56,257-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 5
+2018-04-29 16:09:56,305-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:09:56,305-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:09:56,306-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:09:56,306-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:09:56,320-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-3, interfaceId=100100, cId=10}
+2018-04-29 16:09:56,322-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:56,323-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:09:56,666-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:56,818-[YZT] [INFO] pool-3-thread-14 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 498
+2018-04-29 16:09:56,881-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":203849,"a":"100008","J":911782}
+2018-04-29 16:09:56,882-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":203849,"a":"100008","J":911782}
+2018-04-29 16:09:56,882-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":203849,"J":911782}
+2018-04-29 16:09:56,882-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:09:56,887-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=911782, roomSn=203849}
+2018-04-29 16:09:56,887-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:09:56,889-[YZT] [INFO] pool-3-thread-15 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 3
+2018-04-29 16:09:57,008-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":911782,"f":1}
+2018-04-29 16:09:57,009-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":911782,"f":1}
+2018-04-29 16:09:57,010-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":911782}
+2018-04-29 16:09:57,010-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:09:57,018-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=911782}
+2018-04-29 16:09:57,018-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:09:57,019-[YZT] [INFO] pool-3-thread-16 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 2
+2018-04-29 16:09:59,610-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100009","J":374337}
+2018-04-29 16:09:59,611-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100009","J":374337}
+2018-04-29 16:09:59,611-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100009","J":374337}
+2018-04-29 16:09:59,611-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100009
+2018-04-29 16:09:59,613-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100009, userId=374337}
+2018-04-29 16:09:59,614-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 用户点击同意协议,interfaceId -> 100009
+2018-04-29 16:09:59,619-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:09:59,791-[YZT] [INFO] pool-3-thread-2 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100009 ] 请求处理时间 -->> 178
+2018-04-29 16:10:00,006-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:10:01,894-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=7
+2018-04-29 16:10:01,894-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 7 个 client 登陆！address： : /192.168.1.156:62538
+2018-04-29 16:10:01,894-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:10:01,921-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:01,921-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:01,922-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:01,922-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:01,922-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-23, interfaceId=100100, cId=10}
+2018-04-29 16:10:01,922-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:01,923-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:10:02,262-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:02,350-[YZT] [ERROR] pool-3-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getMoneyInit数据库操作出错！
+2018-04-29 16:10:02,450-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:02,671-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:02,926-[YZT] [INFO] pool-3-thread-1 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 1004
+2018-04-29 16:10:03,229-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":527092,"f":1}
+2018-04-29 16:10:03,229-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":527092,"f":1}
+2018-04-29 16:10:03,230-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":527092}
+2018-04-29 16:10:03,230-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:10:03,231-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=527092}
+2018-04-29 16:10:03,232-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:10:03,234-[YZT] [INFO] pool-3-thread-3 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 3
+2018-04-29 16:10:05,006-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100009","J":527092}
+2018-04-29 16:10:05,007-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100009","J":527092}
+2018-04-29 16:10:05,007-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100009","J":527092}
+2018-04-29 16:10:05,007-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100009
+2018-04-29 16:10:05,008-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100009, userId=527092}
+2018-04-29 16:10:05,008-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 用户点击同意协议,interfaceId -> 100009
+2018-04-29 16:10:05,011-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:05,240-[YZT] [INFO] pool-3-thread-4 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100009 ] 请求处理时间 -->> 232
+2018-04-29 16:10:07,233-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":504286,"m":10,"n":1,"Bc":1,"Bd":0,"Be":48,"Bw":2,"cB":1,"cH":1,"cX":2,"cY":2,"a":"100007"}
+2018-04-29 16:10:07,233-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":504286,"m":10,"n":1,"Bc":1,"Bd":0,"Be":48,"Bw":2,"cB":1,"cH":1,"cX":2,"cY":2,"a":"100007"}
+2018-04-29 16:10:07,233-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"Bc":1,"a":"100007","Bd":0,"Be":48,"Bw":2,"cH":1,"cX":2,"cY":2,"J":504286,"m":10,"n":1,"cB":1}
+2018-04-29 16:10:07,233-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100007
+2018-04-29 16:10:07,234-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{diZhuType=2, mul=1, dingFen=48, extraType=1, userId=504286, isLaiZi=0, mingPaiType=2, can4Take2=1, interfaceId=100007, roomType=1, daPaiJiaoMan=2, circleNum=10}
+2018-04-29 16:10:07,234-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 创建房间,interfaceId -> 100007
+2018-04-29 16:10:07,298-[YZT] [INFO] pool-3-thread-5 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100007 ] 请求处理时间 -->> 65
+2018-04-29 16:10:07,317-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:10:07,317-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:10:07,318-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-21","G":10}
+2018-04-29 16:10:07,318-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:07,318-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-21, interfaceId=100100, cId=10}
+2018-04-29 16:10:07,323-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:07,445-[YZT] [INFO] pool-3-thread-6 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 127
+2018-04-29 16:10:17,756-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:10:17,756-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:10:17,756-[YZT] [INFO] NioProcessor-4 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为3
+2018-04-29 16:10:17,757-[YZT] [INFO] pool-3-thread-7 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:10:17,757-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 374337 离线，是否设置本人状态为 2 
+2018-04-29 16:10:18,360-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=8
+2018-04-29 16:10:18,360-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 8 个 client 登陆！address： : /192.168.1.156:62548
+2018-04-29 16:10:18,360-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:10:18,392-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,392-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,392-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,392-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:18,392-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-22, interfaceId=100100, cId=10}
+2018-04-29 16:10:18,394-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:18,394-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:10:18,571-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:18,809-[YZT] [INFO] pool-3-thread-9 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 417
+2018-04-29 16:10:18,837-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":645126,"a":"100008","J":374337}
+2018-04-29 16:10:18,838-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":645126,"a":"100008","J":374337}
+2018-04-29 16:10:18,838-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":645126,"J":374337}
+2018-04-29 16:10:18,838-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:10:18,838-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=374337, roomSn=645126}
+2018-04-29 16:10:18,838-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:10:18,843-[YZT] [INFO] pool-3-thread-10 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 5
+2018-04-29 16:10:18,906-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,907-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,907-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-22","G":10}
+2018-04-29 16:10:18,907-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:18,907-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-22, interfaceId=100100, cId=10}
+2018-04-29 16:10:18,908-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:19,143-[YZT] [INFO] pool-3-thread-11 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 236
+2018-04-29 16:10:20,096-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":645126,"J":374337,"a":"100200"}
+2018-04-29 16:10:20,097-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":645126,"J":374337,"a":"100200"}
+2018-04-29 16:10:20,097-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":645126,"J":374337}
+2018-04-29 16:10:20,097-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:10:20,097-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=374337, roomSn=645126}
+2018-04-29 16:10:20,104-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:10:20,108-[YZT] [INFO] pool-3-thread-12 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 11
+2018-04-29 16:10:21,104-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:10:21,105-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:10:21,107-[YZT] [INFO] pool-3-thread-13 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:10:21,107-[YZT] [INFO] NioProcessor-8 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为7
+2018-04-29 16:10:21,108-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 527092 离线，是否设置本人状态为 2 
+2018-04-29 16:10:21,766-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=9
+2018-04-29 16:10:21,767-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 9 个 client 登陆！address： : /192.168.1.156:62550
+2018-04-29 16:10:21,768-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:10:21,810-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:21,810-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:21,811-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:21,811-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:21,814-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-23, interfaceId=100100, cId=10}
+2018-04-29 16:10:21,819-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:21,819-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:10:21,994-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:22,228-[YZT] [INFO] pool-3-thread-15 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 415
+2018-04-29 16:10:22,246-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":645126,"a":"100008","J":527092}
+2018-04-29 16:10:22,246-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":645126,"a":"100008","J":527092}
+2018-04-29 16:10:22,246-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":645126,"J":527092}
+2018-04-29 16:10:22,247-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:10:22,247-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=527092, roomSn=645126}
+2018-04-29 16:10:22,247-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:10:22,257-[YZT] [INFO] pool-3-thread-16 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 10
+2018-04-29 16:10:22,292-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:22,293-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:22,293-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-23","G":10}
+2018-04-29 16:10:22,293-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:10:22,293-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-23, interfaceId=100100, cId=10}
+2018-04-29 16:10:22,294-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:22,512-[YZT] [INFO] pool-3-thread-2 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 219
+2018-04-29 16:10:23,297-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":645126,"J":527092,"a":"100200"}
+2018-04-29 16:10:23,297-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":645126,"J":527092,"a":"100200"}
+2018-04-29 16:10:23,297-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":645126,"J":527092}
+2018-04-29 16:10:23,297-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:10:23,298-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=527092, roomSn=645126}
+2018-04-29 16:10:23,298-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:10:23,300-[YZT] [INFO] pool-3-thread-1 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 2
+2018-04-29 16:10:24,475-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":645126,"J":504286,"a":"100200"}
+2018-04-29 16:10:24,476-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":645126,"J":504286,"a":"100200"}
+2018-04-29 16:10:24,476-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":645126,"J":504286}
+2018-04-29 16:10:24,476-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:10:24,477-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=504286, roomSn=645126}
+2018-04-29 16:10:24,477-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:10:24,494-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.game.dao.impl.RoomMapperImpl} -- 保存房间信息
+2018-04-29 16:10:24,494-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:24,494-[YZT] [INFO] Thread-3 detail - {com.up72.server.mina.utils.TaskUtil} -- 645126通知我终止解散房间
+2018-04-29 16:10:24,496-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId userId -> 504286
+2018-04-29 16:10:24,497-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId cid -> 10
+2018-04-29 16:10:24,497-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:24,497-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>> com.up72.game.dao.UserMapper.getUserMoneyByUserId
+2018-04-29 16:10:24,665-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId userId -> 504286
+2018-04-29 16:10:24,665-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId cid -> 10
+2018-04-29 16:10:24,666-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:24,666-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>> com.up72.game.dao.UserMapper.getUserMoneyByUserId
+2018-04-29 16:10:24,695-[YZT] [INFO] pool-4-thread-2 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:24,710-[YZT] [INFO] pool-4-thread-3 detail - {com.up72.server.mina.utils.PostUtil} -- 参数为：p_name=wsw_X9_1&o_name=u_consume&u_id=504286&s_count=3
+2018-04-29 16:10:24,710-[YZT] [INFO] pool-4-thread-3 detail - {com.up72.server.mina.utils.PostUtil} -- url：http://47.93.61.29:8999/gmserver/open/us.statistic.index.html
+2018-04-29 16:10:24,711-[YZT] [INFO] pool-3-thread-3 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 235
+2018-04-29 16:10:24,838-[YZT] [INFO] pool-4-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:10:25,508-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":504286,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,509-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":504286,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,510-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":645126,"J":504286}
+2018-04-29 16:10:25,510-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:10:25,512-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=504286, roomSn=645126}
+2018-04-29 16:10:25,512-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:10:25,513-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":374337,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,514-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":374337,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,514-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":645126,"J":374337}
+2018-04-29 16:10:25,514-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:10:25,514-[YZT] [INFO] pool-3-thread-4 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 2
+2018-04-29 16:10:25,514-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=374337, roomSn=645126}
+2018-04-29 16:10:25,514-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:10:25,517-[YZT] [INFO] pool-3-thread-4 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 3
+2018-04-29 16:10:25,517-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":527092,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,518-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":527092,"y":645126,"U":0,"a":"100207"}
+2018-04-29 16:10:25,518-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":645126,"J":527092}
+2018-04-29 16:10:25,518-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:10:25,519-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=527092, roomSn=645126}
+2018-04-29 16:10:25,519-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:10:25,523-[YZT] [INFO] pool-3-thread-6 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 5
+2018-04-29 16:10:26,025-[YZT] [ERROR] pool-4-thread-3 detail - {com.up72.server.mina.utils.PostUtil} -- 发送 POST 请求出现异常！java.net.ConnectException: Connection refused: connect
+2018-04-29 16:10:26,027-[YZT] [INFO] pool-4-thread-3 detail - {com.up72.server.mina.utils.PostUtil} -- 统计借口调用结果：
+2018-04-29 16:11:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:12:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:13:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:14:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:15:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:16:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:17:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:17:01,247-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":210717,"m":10,"n":1,"Bc":1,"Bd":0,"Be":48,"Bw":2,"cB":1,"cH":1,"cX":2,"cY":2,"a":"100007"}
+2018-04-29 16:17:01,248-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":210717,"m":10,"n":1,"Bc":1,"Bd":0,"Be":48,"Bw":2,"cB":1,"cH":1,"cX":2,"cY":2,"a":"100007"}
+2018-04-29 16:17:01,249-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"Bc":1,"a":"100007","Bd":0,"Be":48,"Bw":2,"cH":1,"cX":2,"cY":2,"J":210717,"m":10,"n":1,"cB":1}
+2018-04-29 16:17:01,249-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100007
+2018-04-29 16:17:01,250-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{diZhuType=2, mul=1, dingFen=48, extraType=1, userId=210717, isLaiZi=0, mingPaiType=2, can4Take2=1, interfaceId=100007, roomType=1, daPaiJiaoMan=2, circleNum=10}
+2018-04-29 16:17:01,250-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 创建房间,interfaceId -> 100007
+2018-04-29 16:17:01,256-[YZT] [INFO] pool-3-thread-8 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100007 ] 请求处理时间 -->> 6
+2018-04-29 16:17:01,283-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:17:01,284-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:17:01,285-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-5","G":10}
+2018-04-29 16:17:01,285-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:01,287-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-5, interfaceId=100100, cId=10}
+2018-04-29 16:17:01,290-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:01,361-[YZT] [INFO] pool-3-thread-7 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 74
+2018-04-29 16:17:03,526-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:17:03,526-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:17:03,526-[YZT] [INFO] pool-3-thread-9 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:17:03,526-[YZT] [INFO] NioProcessor-5 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为4
+2018-04-29 16:17:03,527-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 124199 离线，是否设置本人状态为 2 
+2018-04-29 16:17:03,905-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=10
+2018-04-29 16:17:03,906-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 10 个 client 登陆！address： : /192.168.1.107:60031
+2018-04-29 16:17:03,906-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:17:03,925-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:03,925-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:03,925-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:03,925-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:03,926-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-6, interfaceId=100100, cId=10}
+2018-04-29 16:17:03,926-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:03,926-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:17:03,959-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:04,026-[YZT] [INFO] pool-3-thread-11 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 100
+2018-04-29 16:17:04,047-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":203849,"a":"100008","J":124199}
+2018-04-29 16:17:04,047-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":203849,"a":"100008","J":124199}
+2018-04-29 16:17:04,047-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":203849,"J":124199}
+2018-04-29 16:17:04,047-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:17:04,048-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=124199, roomSn=203849}
+2018-04-29 16:17:04,048-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:17:04,048-[YZT] [INFO] pool-3-thread-12 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 0
+2018-04-29 16:17:04,143-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100002","J":124199,"f":1}
+2018-04-29 16:17:04,143-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100002","J":124199,"f":1}
+2018-04-29 16:17:04,143-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100002","f":1,"J":124199}
+2018-04-29 16:17:04,144-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100002
+2018-04-29 16:17:04,145-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100002, page=1, userId=124199}
+2018-04-29 16:17:04,145-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 大厅查询战绩,interfaceId -> 100002
+2018-04-29 16:17:04,147-[YZT] [INFO] pool-3-thread-13 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100002 ] 请求处理时间 -->> 2
+2018-04-29 16:17:11,216-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:17:11,216-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:17:11,216-[YZT] [INFO] pool-3-thread-14 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:17:11,216-[YZT] [INFO] NioProcessor-11 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为10
+2018-04-29 16:17:11,217-[YZT] [INFO] pool-3-thread-15 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 124199 离线，是否设置本人状态为 2 
+2018-04-29 16:17:11,588-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=11
+2018-04-29 16:17:11,588-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 11 个 client 登陆！address： : /192.168.1.107:60048
+2018-04-29 16:17:11,589-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:17:11,623-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:11,623-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:11,623-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:11,623-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:11,624-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-6, interfaceId=100100, cId=10}
+2018-04-29 16:17:11,624-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:11,625-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:17:11,900-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:11,980-[YZT] [INFO] pool-3-thread-16 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 357
+2018-04-29 16:17:11,998-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":710075,"a":"100008","J":124199}
+2018-04-29 16:17:11,999-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":710075,"a":"100008","J":124199}
+2018-04-29 16:17:12,000-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":710075,"J":124199}
+2018-04-29 16:17:12,000-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:17:12,002-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=124199, roomSn=710075}
+2018-04-29 16:17:12,002-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:17:12,005-[YZT] [INFO] pool-3-thread-2 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 3
+2018-04-29 16:17:12,028-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:12,028-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:12,028-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-6","G":10}
+2018-04-29 16:17:12,028-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:12,029-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-6, interfaceId=100100, cId=10}
+2018-04-29 16:17:12,032-[YZT] [INFO] pool-3-thread-1 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:12,087-[YZT] [INFO] pool-3-thread-1 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 59
+2018-04-29 16:17:12,458-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":710075,"J":124199,"a":"100200"}
+2018-04-29 16:17:12,458-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":710075,"J":124199,"a":"100200"}
+2018-04-29 16:17:12,458-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":710075,"J":124199}
+2018-04-29 16:17:12,458-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:17:12,458-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=124199, roomSn=710075}
+2018-04-29 16:17:12,459-[YZT] [INFO] pool-3-thread-3 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:17:12,464-[YZT] [INFO] pool-3-thread-3 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 6
+2018-04-29 16:17:13,589-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:17:13,589-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:17:13,589-[YZT] [INFO] NioProcessor-7 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为6
+2018-04-29 16:17:13,590-[YZT] [INFO] pool-3-thread-5 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 1
+2018-04-29 16:17:13,590-[YZT] [INFO] pool-3-thread-4 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 911782 离线，是否设置本人状态为 2 
+2018-04-29 16:17:13,947-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 新客户端连接,id=12
+2018-04-29 16:17:13,947-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 第 12 个 client 登陆！address： : /192.168.1.107:60056
+2018-04-29 16:17:13,948-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.handler.MinaServerHandler} --  session Opened ,连接数 -> 6
+2018-04-29 16:17:13,967-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:13,968-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:13,969-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:13,969-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:13,969-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-3, interfaceId=100100, cId=10}
+2018-04-29 16:17:13,970-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:13,970-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>>com.up72.game.dao.UserMapper.findByOpenId
+2018-04-29 16:17:14,001-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:14,083-[YZT] [INFO] pool-3-thread-6 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 114
+2018-04-29 16:17:14,113-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":710075,"a":"100008","J":911782}
+2018-04-29 16:17:14,114-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":710075,"a":"100008","J":911782}
+2018-04-29 16:17:14,114-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100008","y":710075,"J":911782}
+2018-04-29 16:17:14,114-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100008
+2018-04-29 16:17:14,116-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100008, userId=911782, roomSn=710075}
+2018-04-29 16:17:14,117-[YZT] [INFO] pool-3-thread-8 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 加入房间,interfaceId -> 100008
+2018-04-29 16:17:14,123-[YZT] [INFO] pool-3-thread-8 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100008 ] 请求处理时间 -->> 7
+2018-04-29 16:17:14,152-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:14,152-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:14,152-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100100","F":"wsw-3","G":10}
+2018-04-29 16:17:14,153-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100100
+2018-04-29 16:17:14,153-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{openId=wsw-3, interfaceId=100100, cId=10}
+2018-04-29 16:17:14,154-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:14,193-[YZT] [INFO] pool-3-thread-7 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100100 ] 请求处理时间 -->> 40
+2018-04-29 16:17:14,454-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":710075,"J":911782,"a":"100200"}
+2018-04-29 16:17:14,454-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":710075,"J":911782,"a":"100200"}
+2018-04-29 16:17:14,454-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":710075,"J":911782}
+2018-04-29 16:17:14,454-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:17:14,454-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=911782, roomSn=710075}
+2018-04-29 16:17:14,454-[YZT] [INFO] pool-3-thread-9 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:17:14,456-[YZT] [INFO] pool-3-thread-9 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 2
+2018-04-29 16:17:16,181-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"y":710075,"J":210717,"a":"100200"}
+2018-04-29 16:17:16,182-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"y":710075,"J":210717,"a":"100200"}
+2018-04-29 16:17:16,182-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100200","y":710075,"J":210717}
+2018-04-29 16:17:16,182-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100200
+2018-04-29 16:17:16,182-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{interfaceId=100200, userId=210717, roomSn=710075}
+2018-04-29 16:17:16,182-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100200
+2018-04-29 16:17:16,192-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.game.dao.impl.RoomMapperImpl} -- 保存房间信息
+2018-04-29 16:17:16,192-[YZT] [INFO] Thread-4 detail - {com.up72.server.mina.utils.TaskUtil} -- 710075通知我终止解散房间
+2018-04-29 16:17:16,192-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId userId -> 210717
+2018-04-29 16:17:16,192-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:16,192-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId cid -> 10
+2018-04-29 16:17:16,193-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:16,193-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>> com.up72.game.dao.UserMapper.getUserMoneyByUserId
+2018-04-29 16:17:16,238-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId userId -> 210717
+2018-04-29 16:17:16,238-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- getUserMoneyByUserId cid -> 10
+2018-04-29 16:17:16,238-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:16,238-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.game.dao.impl.UserMapperImpl} -- sql name ==>> com.up72.game.dao.UserMapper.getUserMoneyByUserId
+2018-04-29 16:17:16,259-[YZT] [INFO] pool-4-thread-5 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:16,269-[YZT] [INFO] pool-3-thread-10 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100200 ] 请求处理时间 -->> 87
+2018-04-29 16:17:16,269-[YZT] [INFO] pool-4-thread-4 detail - {com.up72.server.mina.utils.MyBatisUtils} -- sqlSession null , open a new sqlSesson and set to thread locad ! 
+2018-04-29 16:17:16,272-[YZT] [INFO] pool-4-thread-6 detail - {com.up72.server.mina.utils.PostUtil} -- 参数为：p_name=wsw_X9_1&o_name=u_consume&u_id=210717&s_count=3
+2018-04-29 16:17:16,272-[YZT] [INFO] pool-4-thread-6 detail - {com.up72.server.mina.utils.PostUtil} -- url：http://47.93.61.29:8999/gmserver/open/us.statistic.index.html
+2018-04-29 16:17:17,079-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":210717,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,079-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":210717,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,079-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":710075,"J":210717}
+2018-04-29 16:17:17,079-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:17:17,079-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=210717, roomSn=710075}
+2018-04-29 16:17:17,079-[YZT] [INFO] pool-3-thread-11 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:17:17,082-[YZT] [INFO] pool-3-thread-11 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 3
+2018-04-29 16:17:17,085-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":124199,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,086-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":124199,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,087-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":710075,"J":124199}
+2018-04-29 16:17:17,087-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:17:17,088-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"J":911782,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,089-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"J":911782,"y":710075,"U":0,"a":"100207"}
+2018-04-29 16:17:17,089-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100207","U":0,"y":710075,"J":911782}
+2018-04-29 16:17:17,089-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100207
+2018-04-29 16:17:17,089-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=124199, roomSn=710075}
+2018-04-29 16:17:17,090-[YZT] [INFO] pool-3-thread-12 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:17:17,092-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{playStatus=0, interfaceId=100207, userId=911782, roomSn=710075}
+2018-04-29 16:17:17,093-[YZT] [INFO] pool-3-thread-13 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 请求发牌,interfaceId -> 100207
+2018-04-29 16:17:17,093-[YZT] [INFO] pool-3-thread-12 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 4
+2018-04-29 16:17:17,094-[YZT] [INFO] pool-3-thread-13 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100207 ] 请求处理时间 -->> 2
+2018-04-29 16:17:17,312-[YZT] [ERROR] pool-4-thread-6 detail - {com.up72.server.mina.utils.PostUtil} -- 发送 POST 请求出现异常！java.net.ConnectException: Connection refused: connect
+2018-04-29 16:17:17,312-[YZT] [INFO] pool-4-thread-6 detail - {com.up72.server.mina.utils.PostUtil} -- 统计借口调用结果：
+2018-04-29 16:17:23,563-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString={"ag":4,"J":911782,"y":710075,"a":"100202"}
+2018-04-29 16:17:23,563-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data={"ag":4,"J":911782,"y":710075,"a":"100202"}
+2018-04-29 16:17:23,563-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- json={"a":"100202","ag":4,"y":710075,"J":911782}
+2018-04-29 16:17:23,563-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- interfaceId=100202
+2018-04-29 16:17:23,564-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.function.TCPFunctionExecutor} -- ==========================>接收到的数据{action=4, interfaceId=100202, userId=911782, roomSn=710075}
+2018-04-29 16:17:23,564-[YZT] [INFO] pool-3-thread-14 detail - {com.up72.server.mina.function.TCPGameFunctions} -- 准备,interfaceId -> 100202
+2018-04-29 16:17:23,567-[YZT] [INFO] pool-3-thread-14 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 100202 ] 请求处理时间 -->> 3
+2018-04-29 16:18:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:19:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:20:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:21:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:22:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:23:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:24:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:25:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:26:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:27:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:28:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:29:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:29:56,836-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:29:56,836-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:29:56,837-[YZT] [INFO] NioProcessor-3 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为2
+2018-04-29 16:29:56,837-[YZT] [INFO] pool-3-thread-15 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:29:56,837-[YZT] [INFO] pool-3-thread-16 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 504286 离线，是否设置本人状态为 2 
+2018-04-29 16:29:57,915-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:29:57,915-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:29:57,916-[YZT] [INFO] NioProcessor-9 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为8
+2018-04-29 16:29:57,920-[YZT] [INFO] pool-3-thread-2 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:29:57,920-[YZT] [INFO] pool-3-thread-2 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 374337 离线，是否设置本人状态为 2 
+2018-04-29 16:29:59,147-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:29:59,147-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:29:59,147-[YZT] [INFO] pool-3-thread-3 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:29:59,147-[YZT] [INFO] NioProcessor-10 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为9
+2018-04-29 16:29:59,148-[YZT] [INFO] pool-3-thread-5 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 527092 离线，是否设置本人状态为 2 
+2018-04-29 16:30:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:31:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:32:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:33:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:34:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:35:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:36:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:37:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:38:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:39:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:39:06,442-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:39:06,443-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:39:06,445-[YZT] [INFO] NioProcessor-6 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为5
+2018-04-29 16:39:06,445-[YZT] [INFO] pool-3-thread-4 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:39:06,446-[YZT] [INFO] pool-3-thread-6 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 210717 离线，是否设置本人状态为 2 
+2018-04-29 16:39:08,168-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:39:08,169-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:39:08,170-[YZT] [INFO] pool-3-thread-8 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:39:08,170-[YZT] [INFO] NioProcessor-12 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为11
+2018-04-29 16:39:08,170-[YZT] [INFO] pool-3-thread-7 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 124199 离线，是否设置本人状态为 2 
+2018-04-29 16:39:10,543-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- jsonString=  
+2018-04-29 16:39:10,544-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.tcp.MinaDecoder} -- data= 
+2018-04-29 16:39:10,544-[YZT] [INFO] pool-3-thread-9 pressure - {com.up72.server.mina.handler.MinaServerHandler} -- TCP 函数 [ 0 ] 请求处理时间 -->> 0
+2018-04-29 16:39:10,544-[YZT] [INFO] NioProcessor-13 detail - {com.up72.server.mina.handler.MinaServerHandler} -- 链接关闭，id为12
+2018-04-29 16:39:10,545-[YZT] [INFO] pool-3-thread-10 detail - {com.up72.server.mina.handler.MinaServerHandler} -- playerUid = 911782 离线，是否设置本人状态为 2 
+2018-04-29 16:40:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:41:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:42:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:43:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:44:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:45:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:46:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:47:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:48:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:49:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:50:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:51:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:52:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:53:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:54:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:55:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:56:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:57:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:58:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 16:59:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:00:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:00:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理任务开始…… 
+2018-04-29 17:00:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.BackFileUtil} -- 回放文件清理完成！
+2018-04-29 17:00:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理战绩完成，共清理过期记录0条
+2018-04-29 17:00:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-29 17:00:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理任务结束
+2018-04-29 17:01:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:02:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:03:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:04:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:05:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:06:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:07:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:08:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:09:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:10:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:11:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:12:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:13:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:14:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:15:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:16:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:17:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:18:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:19:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:20:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:21:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:22:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:23:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:24:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:25:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:26:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:27:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:28:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:29:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:30:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:31:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:32:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:33:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:34:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:35:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:36:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:37:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:38:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:39:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:40:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:41:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:42:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:43:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:44:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:45:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:46:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:47:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:48:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:49:00,000-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:50:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:51:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:52:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:53:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:54:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:55:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:56:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:57:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:58:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 17:59:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 18:00:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理任务开始…… 
+2018-04-29 18:00:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.BackFileUtil} -- 回放文件清理完成！
+2018-04-29 18:00:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理战绩完成，共清理过期记录0条
+2018-04-29 18:00:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理代开战绩完成，共清理过期记录0条
+2018-04-29 18:00:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每小时清理任务结束
+2018-04-29 18:00:00,004-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 18:01:00,003-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 18:02:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 18:03:00,002-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
+2018-04-29 18:04:00,001-[YZT] [INFO] taskScheduler-1 detail - {com.up72.server.mina.utils.ScheduledTask} -- 每分钟统计在线人数完成
